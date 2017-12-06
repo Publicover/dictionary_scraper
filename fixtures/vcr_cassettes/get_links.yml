@@ -1,0 +1,326 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://johnsonsdictionaryonline.com/?page_id=50&whichLetter=Q
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 19 Nov 2017 15:50:32 GMT
+      Server:
+      - Apache
+      X-Powered-By:
+      - PHP/5.5.9-1ubuntu4.22
+      Link:
+      - "<http://johnsonsdictionaryonline.com/?p=50>; rel=shortlink"
+      - <http://johnsonsdictionaryonline.com/?rest_route=/>; rel="https://api.w.org/"
+      Vary:
+      - Accept-Encoding
+      Content-Length:
+      - '6168'
+      Content-Type:
+      - text/html; charset=UTF-8
+    body:
+      encoding: ASCII-8BIT
+      string: "<html xmlns=\"http://www.w3.org/1999/xhtml\" dir=\"ltr\" lang=\"en-US\">\r\r\n<head
+        profile=\"http://gmpg.org/xfn/11\">\r\r\n<link rel=\"icon\" type=\"image/ico\"
+        href=\"favicon.ico\"></link> \r\r\n<link rel=\"shortcut icon\" href=\"favicon.ico\"></link>\r\r\n<meta
+        http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\r\r\n<meta
+        property=\"fb:admins\" content=\"1111296967\" />\r\r\n<meta name=\"twitter:card\"
+        content=\"summary\">\r\r\n<meta name=\"twitter:site\" content=\"@SJDictionary\">\r\r\n\r\r\n<meta
+        name=\"Description\" content=\"Alphabetical List of Entries - Johnson's Dictionary
+        Online - \"><meta name=\"twitter:url\" content=\"http://johnsonsdictionaryonline.com/?page_id=50\"><meta
+        name=\"twitter:title\" content=\"Alphabetical List of Entries - Johnson's
+        Dictionary Online -\"><meta name=\"twitter:description\" content=\"\"><meta
+        name=\"twitter:image\" content=\"http://johnsonsdictionaryonline.com/wp-content/themes/johnson/images/front-image.gif\"><link
+        rel=\"image_src\" href=\"http://johnsonsdictionaryonline.com/wp-content/themes/johnson/images/front-image.gif\">\r\n\r\r\n<meta
+        name=\"keywords\" content=\" &raquo; Alphabetical List of Entries, dictionary,
+        samuel johnson, 1755, english, language, english dictionary\">\r\r\n<meta
+        name=\"msvalidate.01\" content=\"7A636314D1D17562E1C8396D6DF8197E\" />\r\r\n<META
+        name=\"y_key\" content=\"371fc973dbf27e64\" />\r\r\n<title> &raquo; Alphabetical
+        List of Entries - A Dictionary of the English Language - Samuel Johnson -
+        1755</title>\r\r\n\r\r\n<link rel=\"stylesheet\" type=\"text/css\" href=\"http://johnsonsdictionaryonline.com/wp-content/themes/johnson/style.css\">
+        \r\r\n<link rel=\"search\" type=\"application/opensearchdescription+xml\"
+        title=\"Johnson's Dictionary\" href=\"http://johnsonsdictionaryonline.com/johnson.xml\">\r\r\n</style>\r\r\n<script
+        language=\"JavaScript\">\r\r\nfunction view_trans() {\r\r\n\tdocument.getElementById(\"storycontent\").style.display=\"block\";\r\r\n\tdocument.getElementById(\"entryscan\").style.display=\"none\";\r\r\n}\r\r\n\r\r\nfunction
+        view_scan() {\r\r\n\tdocument.getElementById(\"entryscan\").style.display=\"block\";\r\r\n\tdocument.getElementById(\"storycontent\").style.display=\"none\";\r\r\n}\r\r\n</script>\r\r\n\r\r\n\r\n\r\r\n</head>\r\r\n\r\r\n<body>\r\r\n<div
+        id=\"top\"></div>\r\r\n<div id=\"wrap\">\r\r\n\r\r\n<div id=\"header-wrap\">\r\r\n<span
+        id=\"pageTitle\">&nbsp; &nbsp; <a href=\"http://johnsonsdictionaryonline.com\"><font
+        color=\"black\">A Dictionary of the English Language</font></a></span><br>\r\r\n<span
+        style=\"font-variant: small-caps; padding-left: 30px;\"> &nbsp; &nbsp; &nbsp;
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; A Digital Edition
+        of the 1755 Classic by Samuel Johnson</span>\r\r\n<div id=\"nav\">\r\r\n<span
+        style=\"font-variant:small-caps\">The Dictionary:</span> <a href=\"http://johnsonsdictionaryonline.com/?page_id=8\">Preface</a>
+        &middot; <a href=\"http://johnsonsdictionaryonline.com/?page_id=42\">History
+        of the English Language</a> &middot; <a href=\"http://johnsonsdictionaryonline.com/?page_id=44\">Grammar
+        of the English Tongue</a><br><a href=\"/?page_id=50&whichLetter=A\"><b>A</b></a>
+        &middot; <a href=\"/?page_id=50&whichLetter=B\"><b>B</b></a> &middot; <a href=\"/?page_id=50&whichLetter=C\"><b>C</b></a>
+        &middot; <a href=\"/?page_id=50&whichLetter=D\"><b>D</b></a> &middot; <a href=\"/?page_id=50&whichLetter=E\"><b>E</b></a>
+        &middot; <a href=\"/?page_id=50&whichLetter=F\"><b>F</b></a> &middot; <a href=\"/?page_id=50&whichLetter=G\"><b>G</b></a>
+        &middot; <a href=\"/?page_id=50&whichLetter=H\"><b>H</b></a> &middot; <a href=\"/?page_id=50&whichLetter=I\"><b>I/J</b></a>
+        &middot; <a href=\"/?page_id=50&whichLetter=K\"><b>K</b></a> &middot; <a href=\"/?page_id=50&whichLetter=L\"><b>L</b></a>
+        &middot; <a href=\"/?page_id=50&whichLetter=M\"><b>M</b></a> &middot; <a href=\"/?page_id=50&whichLetter=N\"><b>N</b></a>
+        &middot; <a href=\"/?page_id=50&whichLetter=O\"><b>O</b></a> &middot; <a href=\"/?page_id=50&whichLetter=P\"><b>P</b></a>
+        &middot; <a href=\"/?page_id=50&whichLetter=Q\"><b>Q</b></a> &middot; <a href=\"/?page_id=50&whichLetter=R\"><b>R</b></a>
+        &middot; <a href=\"/?page_id=50&whichLetter=S\"><b>S</b></a> &middot; <a href=\"/?page_id=50&whichLetter=T\"><b>T</b></a>
+        &middot; <a href=\"/?page_id=50&whichLetter=U\"><b>U/V</b></a> &middot; <a
+        href=\"/?page_id=50&whichLetter=W\"><b>W</b></a> &middot; <a href=\"/?page_id=50&whichLetter=X\"><b>X</b></a>
+        &middot; <a href=\"/?page_id=50&whichLetter=Y\"><b>Y</b></a> &middot; <a href=\"/?page_id=50&whichLetter=Z\"><b>Z</b></a>
+        | <a href=\"http://johnsonsdictionaryonline.com/?page_id=7070\">Page View</a>
+        | <a href=\"http://johnsonsdictionaryonline.com/?page_id=1172\">Authors</a></div>\r\r\n\r\r\n<div
+        id=\"nav2\">&nbsp; &nbsp; &nbsp; &nbsp; <a href=\"http://johnsonsdictionaryonline.com/\"
+        style=\"color:#fff;\">Home</a> &middot; <a href=\"http://johnsonsdictionaryonline.com/?page_id=47\"
+        style=\"color:#fff;\">About</a> &middot; <a href=\"http://johnsonsdictionaryonline.com/?page_id=7507\"
+        style=\"color:#fff;\">How To Use / FAQ</a> &middot; <a href=\"http://johnsonsdictionaryonline.com/?page_id=1346\"
+        style=\"color:#fff;\">Stats</a> &middot; <a href=\"http://johnsonsdictionaryonline.com/?page_id=3267\"
+        style=\"color:#fff;\">History of Johnson's Dictionary</a> &middot; <a href=\"http://johnsonsdictionaryonline.com/?page_id=6991\"
+        style=\"color:#fff;\">Trivia Quiz</a> &middot; <a href=\"http://johnsonsdictionaryonline.com/?task=randompost\"
+        style=\"color:#fff;\">Random Entry</a> &middot; <a href=\"http://johnsonsdictionaryonline.com/?page_id=21019\"
+        style=\"color:#fff;\">Forums</a></div>\r\r\n</div>\r\r\n\r\r\n<form action=\"\"
+        method=\"get\"><input type=\"hidden\" name=\"page_id\" value=\"7409\"> &nbsp;
+        &nbsp; &nbsp; &nbsp; <b>Search Transcribed Entries:</b> <input type=\"text\"
+        name=\"SearchValue\" size=\"30\"><input type=\"submit\" value=\"Search\" style=\"border:
+        1px solid #000; background:#FFF;\"></form> \r\r\n\r\r\n<div id=\"main\">\r\r\n<div
+        id=\"content\">\r\r\n\r\r\n\r\r\n\r\r\n\r\n\r\r\n\r\n\r\r\n\r\r\n<div class=\"post-50
+        page type-page status-publish hentry\" >\r\r\n\r\n\r\r\n<h2 class=\"storytitle\"
+        id=\"post-50\"><a href=\"http://johnsonsdictionaryonline.com/?page_id=50\"
+        rel=\"bookmark\" title=\"Permanent Link: Alphabetical List of Entries\">Alphabetical
+        List of Entries</a></h2>\r\r\n\r\r\n\r\n\r\n\r\r\n<div class=\"storycontent\"
+        id=\"storycontent\">\r\r\n\r\n\r\r\n\r\r\n\r\n\r\r\n<div class=\"maintext\">\r\n\t\t\t<center><h2>~
+        Q ~</h2></center>\r\r\n\t\t\t<p><span class=\"headword\">Q</span>, Is a consonant
+        borrowed from the Latin or French, for which, though <i>q</i> is commonly
+        placed in the Saxon alphabet, the Saxons generally used c&#447;, <i>cw</i>;
+        as c&#447;ellan or <i>cwellan</i>, to quell: <i>qu</i> is, in English, pronounced
+        as by the Italians and Spaniards <i>cw</i>; as <i>quail, quench</i>, except
+        <i>quoit</i>, which is spoken, according to the manner of the French, <i>coit</i>:
+        the name of this letter is <i>cue</i>, from <i>queue</i>, French, tail; its
+        form being that of an O with a tail.</p>\r\r\n\t\t\t<center><table width=\"90%\"
+        style=\"padding-left:15px\"><tr><td valign=\"top\"><a href='/?p=1753' style='color:
+        #990033'>Q</a><br><a href='/?p=1755' style='color: #990033'>Quab</a><br><a
+        href='/?p=1762' style='color: #990033'>Quack (noun)</a><br><a href='/?p=1759'
+        style='color: #990033'>Quack (verb)</a><br><a href='/?p=1765' style='color:
+        #990033'>Quackery</a><br><a href='/?p=1776' style='color: #990033'>Quacksalver</a><br><a
+        href='/?p=1779' style='color: #990033'>Quadragesimal</a><br><a href='/?p=1784'
+        style='color: #990033'>Quadrangle</a><br><a href='/?p=3392' style='color:
+        #990033'>Quadrangular</a><br><a href='/?p=3394' style='color: #990033'>Quadrant</a><br><a
+        href='/?p=3396' style='color: #990033'>Quadrantal</a><br><a href='/?p=3925'
+        style='color: #990033'>Quadrate (adjective)</a><br><a href='/?p=3927' style='color:
+        #990033'>Quadrate (noun)</a><br><a href='/?p=3929' style='color: #990033'>Quadrate
+        (verb)</a><br><a href='/?p=3931' style='color: #990033'>Quadratick</a><br><a
+        href='/?p=3933' style='color: #990033'>Quadratick Equations</a><br><a href='/?p=3935'
+        style='color: #990033'>Quadrature</a><br><a href='/?p=3937' style='color:
+        #990033'>Quadrennial</a><br><a href='/?p=3939' style='color: #990033'>Quadrible</a><br><a
+        href='/?p=3941' style='color: #990033'>Quadrifid</a><br><a href='/?p=3943'
+        style='color: #990033'>Quadrilateral</a><br><a href='/?p=3946' style='color:
+        #990033'>Quadrilateralness</a><br><a href='/?p=3949' style='color: #990033'>Quadrille</a><br><a
+        href='/?p=3951' style='color: #990033'>Quadrin</a><br><a href='/?p=3953' style='color:
+        #990033'>Quadrinomical</a><br><a href='/?p=3955' style='color: #990033'>Quadripartite</a><br><a
+        href='/?p=3957' style='color: #990033'>Quadripartitely</a><br><a href='/?p=3959'
+        style='color: #990033'>Quadripartition</a><br><a href='/?p=3962' style='color:
+        #990033'>Quadriphyllous</a><br><a href='/?p=3964' style='color: #990033'>Quadrireme</a><br><a
+        href='/?p=3966' style='color: #990033'>Quadrisyllable</a><br><a href='/?p=3977'
+        style='color: #990033'>Quadrivalves</a><br></td><td width=\\\"20px\\\">&nbsp;</td><td
+        valign=\"top\"><a href='/?p=3979' style='color: #990033'>Quadrivial</a><br><a
+        href='/?p=3983' style='color: #990033'>Quadruped (adjective)</a><br><a href='/?p=3981'
+        style='color: #990033'>Quadruped (noun)</a><br><a href='/?p=3985' style='color:
+        #990033'>Quadruple</a><br><a href='/?p=3987' style='color: #990033'>Quadruplicate</a><br><a
+        href='/?p=3989' style='color: #990033'>Quadruplication</a><br><a href='/?p=3991'
+        style='color: #990033'>Quadruply</a><br><a href='/?p=3994' style='color: #990033'>Quaere</a><br><a
+        href='/?p=3996' style='color: #990033'>Quaff (verb active)</a><br><a href='/?p=3998'
+        style='color: #990033'>Quaff (verb neuter)</a><br><a href='/?p=4000' style='color:
+        #990033'>Quaffer (noun)</a><br><a href='/?p=4003' style='color: #990033'>Quaffer
+        (verb)</a><br><a href='/?p=5828' style='color: #990033'>Quaggy</a><br><a href='/?p=5829'
+        style='color: #990033'>Quagmire</a><br><a href='/?p=6067' style='color: #990033'>Quake
+        (noun)</a><br><a href='/?p=6065' style='color: #990033'>Quake (verb)</a><br><a
+        href='/?p=6501' style='color: #990033'>Quality</a><br><a href='/?p=8545' style='color:
+        #990033'>Quatrain</a><br><a href='/?p=8547' style='color: #990033'>Quean</a><br><a
+        href='/?p=8549' style='color: #990033'>Queen (noun)</a><br><a href='/?p=20683'
+        style='color: #990033'>Queen (verb)</a><br><a href='/?p=20685' style='color:
+        #990033'>Queen-apple</a><br><a href='/?p=20687' style='color: #990033'>Queening</a><br><a
+        href='/?p=20689' style='color: #990033'>Queer</a><br><a href='/?p=20691' style='color:
+        #990033'>Queerly</a><br><a href='/?p=20693' style='color: #990033'>Queerness</a><br><a
+        href='/?p=20695' style='color: #990033'>Queest</a><br><a href='/?p=20701'
+        style='color: #990033'>Quell (noun)</a><br><a href='/?p=20697' style='color:
+        #990033'>Quell (verb active)</a><br><a href='/?p=20699' style='color: #990033'>Quell
+        (verb neuter)</a><br><a href='/?p=20703' style='color: #990033'>Queller</a><br><a
+        href='/?p=20705' style='color: #990033'>Quelquechose</a><br></td><td width=\\\"20px\\\">&nbsp;</td><td
+        valign=\"top\"><a href='/?p=20707' style='color: #990033'>Queme</a><br><a
+        href='/?p=16633' style='color: #1C3A75'>Quicksighted</a><br><a href='/?p=6784'
+        style='color: #990033'>Quidam</a><br><a href='/?p=6786' style='color: #990033'>Quiddany</a><br><a
+        href='/?p=6793' style='color: #990033'>Quiddit</a><br><a href='/?p=6797' style='color:
+        #990033'>Quiddity</a><br><a href='/?p=6799' style='color: #990033'>Quinquennial</a><br><a
+        href='/?p=17046' style='color: #1C3A75'>Quit</a><br><a href='/?p=6745' style='color:
+        #990033'>Quob</a><br><a href='/?p=6743' style='color: #990033'>Quodlibet</a><br><a
+        href='/?p=6741' style='color: #990033'>Quodlibetarian</a><br><a href='/?p=6738'
+        style='color: #990033'>Quodlibetical</a><br><a href='/?p=6733' style='color:
+        #990033'>Quoif (noun)</a><br><a href='/?p=6731' style='color: #990033'>Quoif
+        (verb)</a><br><a href='/?p=6729' style='color: #990033'>Quoiffure</a><br><a
+        href='/?p=6727' style='color: #990033'>Quoil</a><br><a href='/?p=6725' style='color:
+        #990033'>Quoin</a><br><a href='/?p=6073' style='color: #990033'>Quoit (noun)</a><br><a
+        href='/?p=6078' style='color: #990033'>Quoit (verb active)</a><br><a href='/?p=6076'
+        style='color: #990033'>Quoit (verb neuter)</a><br><a href='/?p=6071' style='color:
+        #990033'>Quondam</a><br><a href='/?p=6069' style='color: #990033'>Quook</a><br><a
+        href='/?p=6063' style='color: #990033'>Quorum</a><br><a href='/?p=6060' style='color:
+        #990033'>Quota</a><br><a href='/?p=6058' style='color: #990033'>Quotation</a><br><a
+        href='/?p=3407' style='color: #990033'>Quote</a><br><a href='/?p=3409' style='color:
+        #990033'>Quoter</a><br><a href='/?p=3405' style='color: #990033'>Quoth</a><br><a
+        href='/?p=3403' style='color: #990033'>Quotidian (adjective)</a><br><a href='/?p=3401'
+        style='color: #990033'>Quotidian (noun)</a><br><a href='/?p=3398' style='color:
+        #990033'>Quotient</a><br></td></tr></table></center><br><img src=\"http://johnsonsdictionaryonline.com/wp-content/uploads/2011/01/q-finis.gif\"
+        alt=\"\" title=\"q-finis\" width=\"393\" height=\"270\" class=\"aligncenter
+        size-full wp-image-2256\" /></div>\r\n</div>\r\r\n</div>\r\r\n<div class=\"meta\">\t\r\r\n\t\r\n\r\r\n<p
+        style=\"border: solid 1px black; padding-left: 25px; text-indent: -20px;\"><font
+        size=\"-1\"><b>Cite this page</b>: \"Alphabetical List of Entries.\" <i>A
+        Dictionary of the English Language: A Digital Edition of the 1755 Classic
+        by Samuel Johnson</i>. Edited by Brandi Besalke. Last modified: December 6,
+        2012. http://johnsonsdictionaryonline.com/?page_id=50.</font></p>\r\n<hr color=\"#000000\"
+        size=\"1\">\r\r\n \r\r\n</div>\r\r\n\r\r\n<ol class=\"commentlist\">\r\r\n\r\n<li
+        class=\"commentli\" id=\"comment-962\">\r\r\n<div class=\"quote\"><p>Wonderful,
+        keep up the good work!</p>\n</div>\r\r\n\r\n</li>\r\r\n<cite>Mike Nightingale
+        on <a href=\"#comment-962\" title=\"\">November 18th, 2011 at 11:24 am </a></cite>\r\r\n\r\n\r\n<li
+        class=\"commentli\" id=\"comment-982\">\r\r\n<div class=\"quote\"><p>Can I
+        help?</p>\n</div>\r\r\n\r\n</li>\r\r\n<cite>Julian Talamantez Brolaski on
+        <a href=\"#comment-982\" title=\"\">January 19th, 2012 at 9:33 pm </a></cite>\r\r\n\r\n\r\n<li
+        class=\"authcomment\" id=\"comment-983\">\r\r\n<div class=\"quote\"><p>Proofreading
+        is a big help. If you notice a transcription error, please <a href=\"http://johnsonsdictionaryonline.com/?page_id=560\"
+        rel=\"nofollow\">contact me</a>.</p>\n</div>\r\r\n\r\n</li>\r\r\n<cite><b><a
+        href='http://johnsonsdictionaryonline.com/members/atrejub/' rel='external
+        nofollow' class='url'>Brandi</a></b> on <a href=\"#comment-983\" title=\"\">January
+        20th, 2012 at 6:20 am </a></cite>\r\r\n\r\n\r\n<li class=\"commentli\" id=\"comment-990\">\r\r\n<div
+        class=\"quote\"><p>If time permits, can the words regulate, rule and commerce
+        be added soon? It would be most helpful. Those that discuss the Constitution
+        often reference Johnsons. Thank you.</p>\n</div>\r\r\n\r\n</li>\r\r\n<cite>EE
+        Johnson on <a href=\"#comment-990\" title=\"\">February 7th, 2012 at 7:27
+        am </a></cite>\r\r\n\r\n\r\n<li class=\"authcomment\" id=\"comment-991\">\r\r\n<div
+        class=\"quote\"><p>They have been added:</p>\n<p><a href=\"http://johnsonsdictionaryonline.com/?p=8802\"
+        rel=\"nofollow\">Regulate</a><br />\n<a href=\"http://johnsonsdictionaryonline.com/?p=8804\"
+        rel=\"nofollow\">Rule (noun)</a><br />\n<a href=\"http://johnsonsdictionaryonline.com/?p=8806\"
+        rel=\"nofollow\">Rule (verb active)</a><br />\n<a href=\"http://johnsonsdictionaryonline.com/?p=8808\"
+        rel=\"nofollow\">Rule (verb neuter)</a><br />\n<a href=\"http://johnsonsdictionaryonline.com/?p=8797\"
+        rel=\"nofollow\">Commerce (noun)</a><br />\n<a href=\"http://johnsonsdictionaryonline.com/?p=8799\"
+        rel=\"nofollow\">Commerce (verb)</a></p>\n</div>\r\r\n\r\n</li>\r\r\n<cite><b><a
+        href='http://johnsonsdictionaryonline.com/members/atrejub/' rel='external
+        nofollow' class='url'>Brandi</a></b> on <a href=\"#comment-991\" title=\"\">February
+        7th, 2012 at 8:31 am </a></cite>\r\r\n\r\n\r\n<li class=\"commentli\" id=\"comment-1009\">\r\r\n<div
+        class=\"quote\"><p>I am researching the life of George Ord (1781-1886) of
+        Philadelphia, who is said to have contributed many entries to Johnson&#8217;s
+        expanded dictionary (as well as Noah Webster&#8217;s first dictionary).</p>\n<p>How
+        may I find out which and how many entries he provided to Johnson&#8217;s dictionary.</p>\n<p>Thanks
+        in advance for any help you might provide.</p>\n</div>\r\r\n\r\n</li>\r\r\n<cite>Al
+        Dorof on <a href=\"#comment-1009\" title=\"\">March 10th, 2012 at 4:39 pm
+        </a></cite>\r\r\n\r\n\r\n<li class=\"authcomment\" id=\"comment-1010\">\r\r\n<div
+        class=\"quote\"><p>Al,</p>\n<p>Johnson died in 1784, when Ord was only 3 years
+        old.  Any entries linked to Ord which appeared in &#8220;Johnson&#8221; dictionaries
+        would have been added by later lexicographers (many of whom linked the title
+        of their dictionary to Johnson merely for marketing purposes).  I focus on
+        the original dictionary Johnson produced, so I do not know much about post-Johnson
+        additions.</p>\n<p>I was going to suggest looking at the online OED, but I
+        tried searching for George Ord there myself and was unable to find any contributions
+        or sources linked to Ord.</p>\n<p>Sorry that I&#8217;m unable to provide any
+        further assistance.</p>\n</div>\r\r\n\r\n</li>\r\r\n<cite><b><a href='http://johnsonsdictionaryonline.com/members/atrejub/'
+        rel='external nofollow' class='url'>Brandi</a></b> on <a href=\"#comment-1010\"
+        title=\"\">March 10th, 2012 at 4:56 pm </a></cite>\r\r\n\r\n\r\n<li class=\"commentli\"
+        id=\"comment-1012\">\r\r\n<div class=\"quote\"><p>Would you be able to transcribe
+        &#8220;Indubitable&#8221;?</p>\n</div>\r\r\n\r\n</li>\r\r\n<cite>Amanda Patchin
+        on <a href=\"#comment-1012\" title=\"\">April 18th, 2012 at 10:34 am </a></cite>\r\r\n\r\n\r\n<li
+        class=\"commentli\" id=\"comment-1054\">\r\r\n<div class=\"quote\"><p>There
+        is a transcription error in the second sentence under the letter &#8220;h&#8221;.
+        It should read: &#8216;the h in English is scarcely &#8220;ever&#8221; mute&#8217;;
+        not &#8220;every&#8221;<br />\nThanks.</p>\n</div>\r\r\n\r\n</li>\r\r\n<cite>Felicia
+        Agyepong on <a href=\"#comment-1054\" title=\"\">July 12th, 2012 at 4:39 pm
+        </a></cite>\r\r\n\r\n\r\n<li class=\"authcomment\" id=\"comment-1055\">\r\r\n<div
+        class=\"quote\"><p>Thanks for catching that. It has been fixed both on the
+        &#8220;H&#8221; entry page and on the alphabet page.</p>\n</div>\r\r\n\r\n</li>\r\r\n<cite><b><a
+        href='http://johnsonsdictionaryonline.com/members/atrejub/' rel='external
+        nofollow' class='url'>Brandi</a></b> on <a href=\"#comment-1055\" title=\"\">July
+        13th, 2012 at 6:27 am </a></cite>\r\r\n\r\n\r\n<li class=\"commentli\" id=\"comment-1075\">\r\r\n<div
+        class=\"quote\"><p>trouble is it takes half an hour to find a word if not
+        yet transcribed, since if you want &#8216;time&#8217; you go to &#8216;T&#8217;
+        and then have to turn some 50 pages, one at a time, to get to to &#8216;time&#8217;.
+        \ Why not allow one to select a page by number?</p>\n</div>\r\r\n\r\n</li>\r\r\n<cite>Mark
+        on <a href=\"#comment-1075\" title=\"\">October 25th, 2012 at 1:44 am </a></cite>\r\r\n\r\n\r\n<li
+        class=\"authcomment\" id=\"comment-1076\">\r\r\n<div class=\"quote\"><p>Mark,</p>\n<p>go
+        to &#8220;<a href=\"http://johnsonsdictionaryonline.com/?page_id=7070\" rel=\"nofollow\">Page
+        View</a>.&#8221;  Under the title &#8220;Page View&#8221; and above the image
+        and page number are two drop-down boxes &#8211; &#8220;Select Section&#8221;
+        and &#8220;Select Page&#8221;. If you wanted to find &#8220;time,&#8221; for
+        instance, you would select &#8220;T&#8221; from the first box.  This causes
+        the &#8220;Select Page&#8221; box to be filled in with the pages from the
+        &#8220;T&#8221; section, enabling you to select &#8220;Tillyfally &#8211;
+        Time.&#8221; Press the &#8220;Go&#8221; button and that page is loaded.</p>\n</div>\r\r\n\r\n</li>\r\r\n<cite><b><a
+        href='http://johnsonsdictionaryonline.com/members/atrejub/' rel='external
+        nofollow' class='url'>Brandi</a></b> on <a href=\"#comment-1076\" title=\"\">October
+        25th, 2012 at 8:23 am </a></cite>\r\r\n\r\n\r\n<li class=\"commentli\" id=\"comment-1079\">\r\r\n<div
+        class=\"quote\"><p>Do you have a definition of &#8220;arms&#8221; as in weaponry?
+        This also is significant in interpreting the constitution.</p>\n</div>\r\r\n\r\n</li>\r\r\n<cite>Misha
+        Dennis on <a href=\"#comment-1079\" title=\"\">November 23rd, 2012 at 1:07
+        am </a></cite>\r\r\n\r\n\r\n<li class=\"authcomment\" id=\"comment-1080\">\r\r\n<div
+        class=\"quote\"><p>Here it is, newly transcribed from page 159: <a href=\"http://johnsonsdictionaryonline.com/?p=12700\"
+        rel=\"nofollow\"><i>Arms</i></a></p>\n</div>\r\r\n\r\n</li>\r\r\n<cite><b><a
+        href='http://johnsonsdictionaryonline.com/members/atrejub/' rel='external
+        nofollow' class='url'>Brandi</a></b> on <a href=\"#comment-1080\" title=\"\">November
+        23rd, 2012 at 5:42 pm </a></cite>\r\r\n\r\n\r\n<li class=\"commentli\" id=\"comment-1092\">\r\r\n<div
+        class=\"quote\"><p>I wonder is there was a definition for &#8216;people&#8217;
+        as in The People&#8230;did Johnson define that?</p>\n</div>\r\r\n\r\n</li>\r\r\n<cite>Marco
+        Dz on <a href=\"#comment-1092\" title=\"\">January 17th, 2013 at 1:24 pm </a></cite>\r\r\n\r\n\r\n<li
+        class=\"authcomment\" id=\"comment-1093\">\r\r\n<div class=\"quote\"><p>The
+        first of the five definitions under &#8220;People (noun)&#8221; is &#8220;A
+        nation; these who compose a community,&#8221; which includes an illustrative
+        quotation from Shakespeare&#8217;s Coriolanus: &#8220;What is the city but
+        the people? / True the people are the city.&#8221; The entry can be <a href=\"http://johnsonsdictionaryonline.com/?p=14114\"
+        rel=\"nofollow\">found here</a>.</p>\n</div>\r\r\n\r\n</li>\r\r\n<cite><b><a
+        href='http://johnsonsdictionaryonline.com/members/atrejub/' rel='external
+        nofollow' class='url'>Brandi</a></b> on <a href=\"#comment-1093\" title=\"\">January
+        17th, 2013 at 1:58 pm </a></cite>\r\r\n\r\n\r\n<li class=\"commentli\" id=\"comment-1108\">\r\r\n<div
+        class=\"quote\"><p>Hi, I was searching for one of the most used words in the
+        18th century: Nature, but it isn&#8217;t here. Can it be added?</p>\n</div>\r\r\n\r\n</li>\r\r\n<cite>Deepali
+        on <a href=\"#comment-1108\" title=\"\">March 20th, 2013 at 8:53 am </a></cite>\r\r\n\r\n\r\n<li
+        class=\"authcomment\" id=\"comment-1109\">\r\r\n<div class=\"quote\"><p>I&#8217;ve
+        added &#8220;Nature&#8221;: <a href=\"http://johnsonsdictionaryonline.com/?p=15301\"
+        rel=\"nofollow\">http://johnsonsdictionaryonline.com/?p=15301</a></p>\n</div>\r\r\n\r\n</li>\r\r\n<cite><b><a
+        href='http://johnsonsdictionaryonline.com/members/atrejub/' rel='external
+        nofollow' class='url'>Brandi</a></b> on <a href=\"#comment-1109\" title=\"\">March
+        20th, 2013 at 12:10 pm </a></cite>\r\r\n\r\n\r\n<li class=\"commentli\" id=\"comment-1402\">\r\r\n<div
+        class=\"quote\"><p>Would you have the definition of &#8220;Infanticide&#8221;
+        ? Did Johnson write it? Could you please transcribe it? Thank you.</p>\n</div>\r\r\n\r\n</li>\r\r\n<cite><a
+        href='http://johnsonsdictionaryonline.com/members/vicjunq92/' rel='external
+        nofollow' class='url'>vicjunq92</a> on <a href=\"#comment-1402\" title=\"\">June
+        29th, 2015 at 4:15 pm </a></cite>\r\r\n\r\n\r\n<li class=\"commentli\" id=\"comment-1403\">\r\r\n<div
+        class=\"quote\"><p>vicjunq92: Johnson did indeed define &#8220;Infanticide.&#8221;
+        It hasn&#8217;t been transcribed yet but the scan of the page it&#8217;s on
+        is very legible. Just scroll to the top of this page, click on Page View.
+        That will bring up a page with two drop-down menus at the top. You can find
+        the word easily by selecting its location with those menus. For more information,
+        look at post #10 right here on the page we&#8217;re on. The process is described
+        there.</p>\n</div>\r\r\n\r\n</li>\r\r\n<cite><a href='http://johnsonsdictionaryonline.com/members/malan1/'
+        rel='external nofollow' class='url'>malan1</a> on <a href=\"#comment-1403\"
+        title=\"\">June 30th, 2015 at 12:20 am </a></cite>\r\r\n\r\n\r\n</ol>\r\r\n\r\r\n\r\r\n\t<div
+        id=\"respond\" class=\"comment-respond\">\n\t\t<h3 id=\"reply-title\" class=\"comment-reply-title\">Leave
+        a Reply <small><a rel=\"nofollow\" id=\"cancel-comment-reply-link\" href=\"/?page_id=50&amp;whichLetter=Q#respond\"
+        style=\"display:none;\">Cancel reply</a></small></h3><p class=\"must-log-in\">You
+        must be <a href=\"http://johnsonsdictionaryonline.com/wp-login.php?redirect_to=http%3A%2F%2Fjohnsonsdictionaryonline.com%2F%3Fpage_id%3D50\">logged
+        in</a> to post a comment.</p>\t</div><!-- #respond -->\n\t\r\n\r\n</div>\r\r\n\r\r\n\r\n\t\r\n\t<!--<div
+        class=\"navigation\">\r\r\n\t\t<div class=\"alignleft\"></div>\r\r\n\t\t<div
+        class=\"alignright\"></div>\r\r\n\t</div>-->\r\r\n\t\r\n\r\n\r\n<hr color=\"#000000\"
+        size=\"1\"><div style=\"margin:5px\"><font size=\"-2\">Disclaimer:<br> johnsonsdictionaryonline.com
+        is completely free to use.  Johnson's dictionary is in the public domain,
+        but please respect the hours of work put into this site by linking to it or
+        crediting it.  This site assumes no liability for its content or for the content
+        of external sites linked to it, and has no warranty or guarantee concerning
+        accuracy or availability.</font></div>\r\r\n\r\n</body>\r\r\n</html>\r\n</body>\r\r\n</html>"
+    http_version: 
+  recorded_at: Sun, 19 Nov 2017 15:50:32 GMT
+recorded_with: VCR 3.0.3
