@@ -6,7 +6,9 @@ require 'mechanize'
 BASE_URL = 'http://johnsonsdictionaryonline.com'.freeze
 LETTERS = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'K', 'L', 'M', 'N',
            'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'W', 'X', 'Y', 'Z'].freeze
+# LETTERS = ['Y']
 start_time = Time.now
+id_num = 1
 
 LETTERS.each do |letter|
   noko_page = HTTParty.get("#{BASE_URL}/?page_id=50&whichLetter=#{letter}")
@@ -26,10 +28,17 @@ LETTERS.each do |letter|
     definitions["#{link}"] = next_page.parser.css('//*[@id="storycontent"]/div').text.strip
   end
 
-  text_file = File.open("all_entries/#{letter[0]}", 'a')
+  definitions.delete_if { |k, v| v =~ /~/ }
+  definitions.each do |k, v|
+    v.gsub!("\n", ' ')
+  end
+
+  text_file = File.open("all_entries/entire_with_quotes.txt", 'a')
+  # text_file = File.open("all_entries/test.txt", 'a')
   definitions.each do |key, value|
-    text_file << "\n#{key}"
-    text_file << "#{value}\n"
+    text_file <<
+      "#{id_num}| #{key.chomp}| #{Time.now}| #{Time.now}| #{value.chomp}\n"
+    id_num += 1
   end
   text_file.close
 end

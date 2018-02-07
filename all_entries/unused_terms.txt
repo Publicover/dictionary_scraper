@@ -1,0 +1,1 @@
+\copy words from /Users/jimpublicover/Desktop/dictionary_scrape/all_words.txt (format CSV)
