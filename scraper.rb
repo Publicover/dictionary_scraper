@@ -28,13 +28,10 @@ LETTERS.each do |letter|
     definitions["#{link}"] = next_page.parser.css('//*[@id="storycontent"]/div').text.strip
   end
 
-  definitions.delete_if { |k, v| v =~ /~/ }
-  definitions.each do |k, v|
-    v.gsub!("\n", ' ')
-  end
+  definitions.delete_if { |_k, v| v =~ /~/ }
+  definitions.each_value { |_k, v| v.gsub!("\n", ' ') }
 
-  text_file = File.open("all_entries/entire_with_quotes.txt", 'a')
-  # text_file = File.open("all_entries/test.txt", 'a')
+  text_file = File.open('all_entries/entire_with_quotes.txt', 'a')
   definitions.each do |key, value|
     text_file <<
       "#{id_num}| #{key.chomp}| #{Time.now}| #{Time.now}| #{value.chomp}\n"
