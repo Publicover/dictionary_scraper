@@ -2,11 +2,12 @@ require 'httparty'
 require 'nokogiri'
 require 'rubygems'
 require 'mechanize'
+require 'byebug'
 
 BASE_URL = 'http://johnsonsdictionaryonline.com'.freeze
 LETTERS = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'K', 'L', 'M', 'N',
            'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'W', 'X', 'Y', 'Z'].freeze
-# LETTERS = ['Y']
+# LETTERS = ['W', 'X', 'Y']
 start_time = Time.now
 id_num = 1
 
@@ -29,12 +30,13 @@ LETTERS.each do |letter|
   end
 
   definitions.delete_if { |_k, v| v =~ /~/ }
-  definitions.each_value { |_k, v| v.gsub!("\n", ' ') }
+  definitions.each_value { |v| v.gsub!("\n", ' ') }
+
 
   text_file = File.open('all_entries/entire_with_quotes.txt', 'a')
   definitions.each do |key, value|
     text_file <<
-      "#{id_num}| #{key.chomp}| #{Time.now}| #{Time.now}| #{value.chomp}\n"
+      "#{id_num}|#{key.chomp}|#{Time.now}|#{Time.now}|#{value.chomp}\n"
     id_num += 1
   end
   text_file.close
